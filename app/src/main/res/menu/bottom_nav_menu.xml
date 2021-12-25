@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+     <item
+         android:id="@+id/Home"
+         android:title="Home"
+         android:icon="@drawable/ic_baseline_home_24"
+         app:cnb_backgroundColor = "#FFEB3B"
+         />
+
+    <item
+         android:id="@+id/All_Buses"
+         android:title="All Buses"
+         android:icon="@drawable/ic_baseline_directions_bus_24"
+         app:cnb_backgroundColor ="#FFEB3B"/>
+
+    <item
+
+        android:id="@+id/setting"
+        android:title="Settings"
+        android:icon="@drawable/ic_baseline_settings_applications_24"
+        app:cnb_backgroundColor = "#FFEB3B" />
+</menu>
