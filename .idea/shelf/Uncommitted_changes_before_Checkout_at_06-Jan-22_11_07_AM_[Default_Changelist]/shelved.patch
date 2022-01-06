@@ -1,0 +1,164 @@
+Index: .idea/gradle.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"GradleSettings\">\r\n    <option name=\"linkedExternalProjectsSettings\">\r\n      <GradleProjectSettings>\r\n        <option name=\"testRunner\" value=\"GRADLE\" />\r\n        <option name=\"distributionType\" value=\"DEFAULT_WRAPPED\" />\r\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\r\n        <option name=\"gradleJvm\" value=\"11\" />\r\n        <option name=\"modules\">\r\n          <set>\r\n            <option value=\"$PROJECT_DIR$\" />\r\n            <option value=\"$PROJECT_DIR$/app\" />\r\n          </set>\r\n        </option>\r\n        <option name=\"resolveModulePerSourceSet\" value=\"false\" />\r\n      </GradleProjectSettings>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/gradle.xml b/.idea/gradle.xml
+--- a/.idea/gradle.xml	(revision 04c48efb21e4e43924eacf4167a254416c812c2d)
++++ b/.idea/gradle.xml	(date 1641445538111)
+@@ -1,5 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="GradleMigrationSettings" migrationVersion="1" />
+   <component name="GradleSettings">
+     <option name="linkedExternalProjectsSettings">
+       <GradleProjectSettings>
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_25-Dec-21_11_11_PM__Default_Changelist_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_25-Dec-21_11_11_PM__Default_Changelist_.xml b/.idea/shelf/Uncommitted_changes_before_Checkout_at_25-Dec-21_11_11_PM__Default_Changelist_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Checkout_at_25-Dec-21_11_11_PM__Default_Changelist_.xml	(revision 04c48efb21e4e43924eacf4167a254416c812c2d)
++++ /dev/null	(revision 04c48efb21e4e43924eacf4167a254416c812c2d)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Checkout_at_25-Dec-21_11_11_PM_[Default_Changelist]" date="1640452263229" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_25-Dec-21_11_11_PM_[Default_Changelist]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Checkout at 25-Dec-21 11:11 PM [Default Changelist]" />
+-</changelist>
+\ No newline at end of file
+Index: .idea/shelf/Uncommitted_changes_before_Checkout_at_25-Dec-21_11_11_PM_[Default_Changelist]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Checkout_at_25-Dec-21_11_11_PM_[Default_Changelist]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Checkout_at_25-Dec-21_11_11_PM_[Default_Changelist]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Checkout_at_25-Dec-21_11_11_PM_[Default_Changelist]/shelved.patch	(revision 04c48efb21e4e43924eacf4167a254416c812c2d)
++++ /dev/null	(revision 04c48efb21e4e43924eacf4167a254416c812c2d)
+@@ -1,97 +0,0 @@
+-Index: .idea/misc.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/misc.xml b/.idea/misc.xml
+-new file mode 100644
+---- /dev/null	(date 1640452225720)
+-+++ b/.idea/misc.xml	(date 1640452225720)
+-@@ -0,0 +1,9 @@
+-+<?xml version="1.0" encoding="UTF-8"?>
+-+<project version="4">
+-+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+-+    <output url="file://$PROJECT_DIR$/build/classes" />
+-+  </component>
+-+  <component name="ProjectType">
+-+    <option name="id" value="Android" />
+-+  </component>
+-+</project>
+-\ No newline at end of file
+-Index: .idea/vcs.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+-new file mode 100644
+---- /dev/null	(date 1640452225739)
+-+++ b/.idea/vcs.xml	(date 1640452225739)
+-@@ -0,0 +1,6 @@
+-+<?xml version="1.0" encoding="UTF-8"?>
+-+<project version="4">
+-+  <component name="VcsDirectoryMappings">
+-+    <mapping directory="" vcs="Git" />
+-+  </component>
+-+</project>
+-\ No newline at end of file
+-Index: .idea/compiler.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/compiler.xml b/.idea/compiler.xml
+-new file mode 100644
+---- /dev/null	(date 1640452225752)
+-+++ b/.idea/compiler.xml	(date 1640452225752)
+-@@ -0,0 +1,6 @@
+-+<?xml version="1.0" encoding="UTF-8"?>
+-+<project version="4">
+-+  <component name="CompilerConfiguration">
+-+    <bytecodeTargetLevel target="11" />
+-+  </component>
+-+</project>
+-\ No newline at end of file
+-Index: .idea/gradle.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/gradle.xml b/.idea/gradle.xml
+-new file mode 100644
+---- /dev/null	(date 1640452225767)
+-+++ b/.idea/gradle.xml	(date 1640452225767)
+-@@ -0,0 +1,19 @@
+-+<?xml version="1.0" encoding="UTF-8"?>
+-+<project version="4">
+-+  <component name="GradleSettings">
+-+    <option name="linkedExternalProjectsSettings">
+-+      <GradleProjectSettings>
+-+        <option name="testRunner" value="GRADLE" />
+-+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+-+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+-+        <option name="modules">
+-+          <set>
+-+            <option value="$PROJECT_DIR$" />
+-+            <option value="$PROJECT_DIR$/app" />
+-+          </set>
+-+        </option>
+-+        <option name="resolveModulePerSourceSet" value="false" />
+-+      </GradleProjectSettings>
+-+    </option>
+-+  </component>
+-+</project>
+-\ No newline at end of file
+-Index: .idea/.gitignore
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/.gitignore b/.idea/.gitignore
+-new file mode 100644
+---- /dev/null	(date 1640452192834)
+-+++ b/.idea/.gitignore	(date 1640452192834)
+-@@ -0,0 +1,3 @@
+-+# Default ignored files
+-+/shelf/
+-+/workspace.xml
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"DesignSurface\">\r\n    <option name=\"filePathToZoomLevelMap\">\r\n      <map>\r\n        <entry key=\"..\\:/Users/ddroy/AndroidStudioProjects/BusRouteBD/app/src/main/res/layout/activity_main.xml\" value=\"0.3625\" />\r\n        <entry key=\"..\\:/Users/ddroy/AndroidStudioProjects/BusRouteBD/app/src/main/res/layout/busList_fragment.xml\" value=\"0.3625\" />\r\n        <entry key=\"..\\:/Users/ddroy/AndroidStudioProjects/BusRouteBD/app/src/main/res/layout/buslist_fragment.xml\" value=\"0.37447916666666664\" />\r\n        <entry key=\"..\\:/Users/ddroy/AndroidStudioProjects/BusRouteBD/app/src/main/res/layout/home_fragment.xml\" value=\"0.3625\" />\r\n        <entry key=\"..\\:/Users/ddroy/AndroidStudioProjects/BusRouteBD/app/src/main/res/layout/search_result_cardview.xml\" value=\"0.5\" />\r\n        <entry key=\"..\\:/Users/ddroy/AndroidStudioProjects/BusRouteBD/app/src/main/res/layout/settings_fragment.xml\" value=\"0.3625\" />\r\n        <entry key=\"..\\:/Users/ddroy/AndroidStudioProjects/BusRouteBD/app/src/main/res/menu/navbar_menu.xml\" value=\"0.3625\" />\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"ExternalStorageConfigurationManager\" enabled=\"true\" />\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_11\" default=\"true\" project-jdk-name=\"11\" project-jdk-type=\"JavaSDK\" />\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	(revision 04c48efb21e4e43924eacf4167a254416c812c2d)
++++ b/.idea/misc.xml	(date 1640960575985)
+@@ -3,16 +3,12 @@
+   <component name="DesignSurface">
+     <option name="filePathToZoomLevelMap">
+       <map>
+-        <entry key="..\:/Users/ddroy/AndroidStudioProjects/BusRouteBD/app/src/main/res/layout/activity_main.xml" value="0.3625" />
+-        <entry key="..\:/Users/ddroy/AndroidStudioProjects/BusRouteBD/app/src/main/res/layout/busList_fragment.xml" value="0.3625" />
+-        <entry key="..\:/Users/ddroy/AndroidStudioProjects/BusRouteBD/app/src/main/res/layout/buslist_fragment.xml" value="0.37447916666666664" />
++        <entry key="..\:/Users/ddroy/AndroidStudioProjects/BusRouteBD/app/src/main/res/layout/activity_main.xml" value="0.25833333333333336" />
++        <entry key="..\:/Users/ddroy/AndroidStudioProjects/BusRouteBD/app/src/main/res/layout/buslist_fragment.xml" value="0.3625" />
+         <entry key="..\:/Users/ddroy/AndroidStudioProjects/BusRouteBD/app/src/main/res/layout/home_fragment.xml" value="0.3625" />
+-        <entry key="..\:/Users/ddroy/AndroidStudioProjects/BusRouteBD/app/src/main/res/layout/search_result_cardview.xml" value="0.5" />
+-        <entry key="..\:/Users/ddroy/AndroidStudioProjects/BusRouteBD/app/src/main/res/layout/settings_fragment.xml" value="0.3625" />
+-        <entry key="..\:/Users/ddroy/AndroidStudioProjects/BusRouteBD/app/src/main/res/menu/navbar_menu.xml" value="0.3625" />
+       </map>
+     </option>
+   </component>
+   <component name="ExternalStorageConfigurationManager" enabled="true" />
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK" />
+ </project>
+\ No newline at end of file
