@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ddroy/AndroidStudioProjects/BusRouteBD/app/src/main/res/layout/about_dev_dialog.xml" value="0.3625" />
         <entry key="..\:/Users/ddroy/AndroidStudioProjects/BusRouteBD/app/src/main/res/layout/activity_main.xml" value="0.25833333333333336" />
         <entry key="..\:/Users/ddroy/AndroidStudioProjects/BusRouteBD/app/src/main/res/layout/allbus_cardview.xml" value="0.33" />
         <entry key="..\:/Users/ddroy/AndroidStudioProjects/BusRouteBD/app/src/main/res/layout/buslist_fragment.xml" value="0.25" />

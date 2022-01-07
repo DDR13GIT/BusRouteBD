@@ -12,7 +12,7 @@
         <item name="colorSecondaryContainer">@color/md_theme_dark_secondaryContainer</item>
         <item name="colorOnSecondaryContainer">@color/md_theme_dark_onSecondaryContainer</item>
         <!-- Status bar color. -->
-        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorSurfaceVariant</item>
         <!-- Customize your theme here. -->
         <item name="colorTertiary">@color/md_theme_dark_tertiary</item>
         <item name="colorOnTertiary">@color/md_theme_dark_onTertiary</item>

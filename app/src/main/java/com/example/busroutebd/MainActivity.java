@@ -1,11 +1,9 @@
 package com.example.busroutebd;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
 import android.os.Bundle;
-import android.view.MenuItem;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -31,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
                 selectedFragment = new BusList_Framgent();
                 break;
             case R.id.setting:
-                selectedFragment = new Settings_Framgent();
+                selectedFragment = new Settings_Fragment();
                 break;
 
         }
