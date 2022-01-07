@@ -8,9 +8,9 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
         app:cardCornerRadius="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -25,72 +25,115 @@
                 android:id="@+id/busName_TextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="72dp"
-                android:layout_marginTop="28dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="24dp"
                 android:text="Bus Name"
                 android:textSize="18sp"
                 android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/busLogo"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
                 android:id="@+id/stopsCount_TextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="236dp"
                 android:layout_marginTop="76dp"
+                android:layout_marginEnd="24dp"
                 android:text="0 Stops"
                 android:textSize="34sp"
                 android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
                 android:id="@+id/source_TextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="48dp"
-                android:layout_marginTop="76dp"
+                android:layout_marginStart="29dp"
                 android:text="Source"
                 android:textSize="16sp"
                 android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintBottom_toBottomOf="@+id/startLocationLogo"
+                app:layout_constraintStart_toEndOf="@+id/startLocationLogo"
+                app:layout_constraintTop_toTopOf="@+id/startLocationLogo" />
 
             <TextView
                 android:id="@+id/destination_TextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="48dp"
-                android:layout_marginTop="112dp"
+                android:layout_marginStart="27dp"
+                android:layout_marginTop="24dp"
                 android:text="Destination"
                 android:textSize="16sp"
                 android:textStyle="bold"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintStart_toEndOf="@+id/endLocationLogo"
+                app:layout_constraintTop_toBottomOf="@+id/source_TextView" />
+
 
             <Button
                 android:id="@+id/details_Button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"
-                android:layout_marginEnd="40dp"
-                android:text="Details"
+                android:layout_marginEnd="36dp"
                 android:backgroundTint="#026D37"
+                android:text="Details"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/stopsCount_TextView" />
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/imageView"
+                android:layout_width="38dp"
+                android:layout_height="36dp"
+                android:layout_marginStart="17dp"
+                android:layout_marginTop="17dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/rectanglebuslogo" />
+
+            <ImageView
+                android:id="@+id/busLogo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="24dp"
-                android:layout_marginTop="28dp"
+                android:layout_marginTop="24dp"
                 android:layout_marginEnd="24dp"
                 app:layout_constraintEnd_toStartOf="@+id/busName_TextView"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:srcCompat="@drawable/ic_round_directions_bus_24" />
+
+            <ImageView
+                android:id="@+id/startLocationLogo"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginTop="24dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView"
+                app:srcCompat="@drawable/start_location_24" />
+
+            <ImageView
+                android:id="@+id/endLocationLogo"
+                android:layout_width="20dp"
+                android:layout_height="15dp"
+                android:layout_marginStart="25dp"
+                app:layout_constraintBottom_toBottomOf="@+id/destination_TextView"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/destination_TextView"
+                app:srcCompat="@drawable/ic_round_location_on_24" />
+
+            <TextView
+                android:id="@+id/addtionalStopTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="52dp"
+                android:text="In Between"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/stopsCount_TextView"
+                app:layout_constraintStart_toStartOf="@+id/stopsCount_TextView"
+                app:layout_constraintTop_toTopOf="parent" />
+
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
