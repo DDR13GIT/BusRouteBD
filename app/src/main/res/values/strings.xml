@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Bus Route BD</string>
+    <string name="cancel">Cancel</string>
+    <string name="aboutDevMessage">Thanks for using this app. Drop a feedback and rating in play store if you like our app.</string>
 </resources>
