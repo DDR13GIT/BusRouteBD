@@ -49,7 +49,7 @@ public class Settings_Fragment extends Fragment {
          dialog.setTitle("Developers");
          dialog.setMessage(R.string.aboutDevMessage);
          dialog.setIcon(R.drawable.round_developer_mode_24);
-        dialog.setNegativeButton(getResources().getString(R.string.cancel), new DialogInterface.OnClickListener() {
+         dialog.setNegativeButton(getResources().getString(R.string.cancel), new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int which) {
                 dialog.cancel();
             }
